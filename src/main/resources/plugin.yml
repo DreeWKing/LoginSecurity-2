@@ -1,15 +1,15 @@
-name: ${project.name}
-version: ${project.version}
+name: ${LoginSecurity}
+version: ${0.1}
 main: com.lenis0012.bukkit.loginsecurity.LoginSecurity
 author: lenis0012
 description: The #1 Auth plugin
 commands:
   login:
     description: Login with your account.
-    usage: /login <password>
+    usage: /l <password>
   register:
     description: Set a password for your account.
-    usage: /register <password>
+    usage: /r <password>
   changepassword:
     description: Change your account password.
     aliases: [changepass]
